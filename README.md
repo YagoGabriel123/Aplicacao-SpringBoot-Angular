@@ -17,5 +17,6 @@
 
 ## Prints da aplicação 
 ![tela de inicio](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/inicio.jpeg)
-![tela de edição](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)
+
+![tela de edição](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)
 
