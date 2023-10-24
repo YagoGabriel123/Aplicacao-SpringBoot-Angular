@@ -1,0 +1,54 @@
+<form>
+
+    <img src="assets/Inversor.png">
+    <input type="numb" placeholder="Código Inversor" class="form-control"   name="Código Inversor" [(ngModel)]="inversor.codigo_inversor">
+    <input type="numb" placeholder="NS Inversor" class="form-control"   name="NS Inversor" [(ngModel)]="inversor.ns_inversor">
+    <input type="numb" placeholder="NS Datalogguer" class="form-control"   name="NS Datalogguer" [(ngModel)]="inversor.ns_datalogger">
+    <input type="numb" placeholder="Nota fiscal" class="form-control"   name="Nota fiscal" [(ngModel)]="inversor.nf">
+    <input type="numb" placeholder="CNPJ" class="form-control"   name="CNPJ" [(ngModel)]="inversor.cnpj">
+    <input type="text" placeholder="Marca Inversor" class="form-control"   name="Marca" [(ngModel)]="inversor.marca">
+    <input type="numb" placeholder="Data" class="form-control"   name="Data" [(ngModel)]="inversor.data">
+    <input type="text" placeholder="Observações" class="form-control"   name="Observações" [(ngModel)]="inversor.observacoes">
+
+    <input type="button" value="Cadastrar" *ngIf="btnCadastro" class="btn btn-primary" (click) ="cadastrar()">
+    <input type="button" value="Alterar" *ngIf="!btnCadastro"  class="btn btn-warning" (click) ="editar()">
+    <input type="button" value="Remover" *ngIf="!btnCadastro"  class="btn btn-danger" (click) ="remover()">
+    <input type="button" value="Cancelar"*ngIf="!btnCadastro"  class="btn btn-secondary" (click) ="cancelar()">
+
+
+</form>
+
+
+
+<table class="table" *ngIf="tabela">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Código Inversor</th>
+            <th>NS Inversor</th>
+            <th>NS Datalogguer</th>
+            <th>Nota fiscal</th>
+            <th>CNPJ</th>
+            <th>Marca Inversor</th>
+            <th>Data</th>
+            <th>Observações</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of inversores;index as id">
+            <td>{{id+1}}</td>
+            <td>{{i.ns_inversor}}</td>
+            <td>{{i.ns_inversor}}</td>
+            <td>{{i.ns_datalogger}}</td>
+            <td>{{i.nf}}</td>
+            <td>{{i.cnpj}}</td>
+            <td>{{i.marca}}</td>
+            <td>{{i.data}}</td>
+            <td>{{i.observacoes}}</td>
+            <td><button class="btn btn-success"(click)="selecionarInversor(id)"> Selecionar</button> </td>
+            
+           
+        </tr>
+    </tbody>
+</table>
