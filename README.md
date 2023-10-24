@@ -16,6 +16,6 @@
 3° Implementar sistema de autenticação para identificar o usuario que fez o registro
 
 ## Prints da aplicação 
-
-![2°](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)
+![tela de inicio](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/inicio.jpeg)
+![tela de edição](https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)https://github.com/YagoGabriel123/Aplicacao-SpringBoot-Angular/blob/master/RUD)
 
