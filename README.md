@@ -1,5 +1,5 @@
 # Aplicacao-SpringBoot-Angular
-<h3 align="center"> Aplicação para registro de venda da inversores com a finalidade de validar a garantia</h3>
+<h3 align="center"> Aplicação para registro de venda de inversores com a finalidade de validar a garantia</h3>
 
 <p align="left">
 </p>
